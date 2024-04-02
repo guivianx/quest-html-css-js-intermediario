@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    background: url(../image/bg-repeat.jpg);
+    background-image: linear-gradient(to bottom, #fa5f87, #4888f8);
+    background-repeat: repeat-x;
+    background-position: center ;
+}
+
+main {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+main section.informacoes {
+    color: #ffffff;
+    width: 300px;
+    height: 111px;
+}
+
+main section.informacoes h1 {
+    font-size: 20px;
+    font-weight: 900;
+}
+
+main section.informacoes p {
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+main section.container-formulario {
+    background-color: #ffffff;
+    width: 340px;
+    height: 415px;
+}
+
+main section.container-formulario form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+main section.container-formulario form>input,
+textarea {
+    outline: none;
+    border: 2px solid;
+    border-radius: 5px;
+    width: 298px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+input::placeholder {
+    color: #A8A8A8;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+textarea::placeholder {
+    color: #A8A8A8;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+textarea {
+    height: 100px;
+    resize: none;
+}
+
+main section.container-formulario form .info {
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 1px;
+    margin-right: 150px;
+}
+
+main section.container-formulario form #botaoEnviar {
+    cursor: pointer;
+    height: 43px;
+    font-size: 15px;
+    font-weight: 700;
+    margin-top: 10px;
+    color: #ffffff;
+    background-color: #3ccc87;
+    transition: background-color .3s ease-out;
+}
+
+main section.container-formulario form #botaoEnviar:hover {
+    background-color: #1edb80;
+}
+
+.txt {
+    font-size: 8px;
+    color: red;
+    font-weight: 400;
+    margin-right: 230px;
+    height: 9px;
+}
