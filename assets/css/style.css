@@ -13,6 +13,8 @@ main {
     align-items: center;
     justify-content: center;
     gap: 40px;
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
 main section.informacoes {
@@ -35,7 +37,7 @@ main section.informacoes p {
 main section.container-formulario {
     background-color: #ffffff;
     width: 340px;
-    height: 415px;
+    height: 395px;
 }
 
 main section.container-formulario form {
@@ -49,7 +51,7 @@ main section.container-formulario form {
 main section.container-formulario form>input,
 textarea {
     outline: none;
-    border: 2px solid;
+    border: 1px solid;
     border-radius: 5px;
     width: 298px;
     padding: 10px;
@@ -76,7 +78,7 @@ textarea {
 main section.container-formulario form .info {
     font-size: 15px;
     font-weight: 400;
-    margin-top: 1px;
+    margin-top: 5px;
     margin-right: 150px;
 }
 
