@@ -2,7 +2,7 @@
 
 body {
     background: url(../image/bg-repeat.jpg);
-    background-image: linear-gradient(to bottom, #fa5f87, #4888f8);
+    background-image: linear-gradient(to bottom, #fa5f87, #4888f8); /*fiz o linear pq com a imagem tava dando bom n, expliquei no readme */
     background-repeat: repeat-x;
     background-position: center ;
 }
