@@ -12,7 +12,7 @@ main {
     height: 100vh;
     align-items: center;
     justify-content: center;
-    gap: 40px;
+    gap: 45px;
     max-width: 1440px;
     margin: 0 auto;
 }
@@ -29,7 +29,7 @@ main section.informacoes h1 {
 }
 
 main section.informacoes p {
-    margin-top: 10px;
+    margin-top: 15px;
     font-weight: 400;
     font-size: 15px;
 }
@@ -37,7 +37,9 @@ main section.informacoes p {
 main section.container-formulario {
     background-color: #ffffff;
     width: 340px;
-    height: 395px;
+    height: 405px;
+    border-radius: 5px;
+
 }
 
 main section.container-formulario form {
@@ -45,7 +47,7 @@ main section.container-formulario form {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: 15px;
+    margin: 15px 0px;
 }
 
 main section.container-formulario form>input,
@@ -103,4 +105,8 @@ main section.container-formulario form #botaoEnviar:hover {
     font-weight: 400;
     margin-right: 230px;
     height: 9px;
+    opacity: 0;
+}
+.ativo {
+    opacity: 1;
 }
